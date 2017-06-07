@@ -1,0 +1,6 @@
+framework module CreoleTextField {
+  umbrella header "CreoleTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

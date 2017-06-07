@@ -1,0 +1,16 @@
+PODS:
+  - CreoleTextField (0.1.0)
+
+DEPENDENCIES:
+  - CreoleTextField (from `../`)
+
+EXTERNAL SOURCES:
+  CreoleTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CreoleTextField: 07e069b498c5ce2e81238ea49cce70ef1e584edb
+
+PODFILE CHECKSUM: c6f82792f0fbfcfd5a422045c9b97963f381a03b
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,22 @@
+{
+  "name": "CreoleTextField",
+  "version": "0.1.0",
+  "summary": "A short description of CreoleTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nirmalsinh07/CreoleTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nirmalsinh07": "nirmasinh@creolestudios.com"
+  },
+  "source": {
+    "git": "https://github.com/Nirmalsinh07/CreoleTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CreoleTextField/Classes/**/*"
+}

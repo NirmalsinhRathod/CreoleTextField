@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360E294E9AEF3B01E937484DA73F3B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		59A2DD40F65526ED846D7F5DFF86A165 /* Pods-CreoleTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C86BCDDC074C53BC3CBC34C3CCE1328 /* Pods-CreoleTextField_Tests-dummy.m */; };
+		90304092B9A7732C1DA21193FDD81610 /* Pods-CreoleTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8682EF8F5FB49B519FD33B1288C02D8 /* Pods-CreoleTextField_Example-dummy.m */; };
+		912F52A61EE822FB009C30D9 /* CreoleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F52A51EE822FB009C30D9 /* CreoleTextField.swift */; };
+		918DB3E07A3B255E2C9924FE413833BA /* CreoleTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49BDA4E6EBC89E556D7CB8EC738503D /* CreoleTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ABA9A8F27675AF84B48C7AED4510F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AAEE2FBF7C47F2414DAE6F4C1F4015D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF0A83C59E7D57D38F7ECEA20660125D /* Pods-CreoleTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534BD4FB62AE8E52132F48DE03AA9CE5 /* Pods-CreoleTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF40DEBA46FEA46E8C9F67E18F314E5B /* Pods-CreoleTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D120BF3A7042BEB7DB7E49363444DD84 /* Pods-CreoleTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7ED9B099C508D0E572FB84FFB44AA8E /* CreoleTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A730BD4C17B85ECDA9265D2FBED2 /* CreoleTextField-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD61DE75615E78D1DBC84CB26D0CA677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D2D5FCA57BB1F22BE266D9AC8834A9;
+			remoteInfo = CreoleTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CFB9A1132C0CAE5B56E6605B4257CE /* Pods-CreoleTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreoleTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		04D7EFAA1C53AB9A225ECABE02D1B0B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0503FB82471EB749BE002824EA59A25A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061E07E273A3FE815276FA3226D50B3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8349535F0AA434A44416521B126A4C /* Pods-CreoleTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CreoleTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B205DB280B16FA2D9B905F75B5BBBA3 /* Pods-CreoleTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreoleTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0B54B73FB212DF54294E5F3771143256 /* Pods-CreoleTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CreoleTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28D72F67CFE8F52C61C4EC8022C15721 /* Pods-CreoleTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreoleTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		29016F8BBE13AD0FAB5172055D0997B6 /* CreoleTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreoleTextField.xcconfig; sourceTree = "<group>"; };
+		3A0A579AE0B8C191739892A3EE978471 /* Pods-CreoleTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreoleTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		3BD3A730BD4C17B85ECDA9265D2FBED2 /* CreoleTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CreoleTextField-dummy.m"; sourceTree = "<group>"; };
+		534BD4FB62AE8E52132F48DE03AA9CE5 /* Pods-CreoleTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CreoleTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		608F484EB2FF7655A39C0164F3A29C44 /* Pods-CreoleTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CreoleTextField_Example.modulemap"; sourceTree = "<group>"; };
+		6101A66082B520936C45F367950B8C0E /* Pods-CreoleTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CreoleTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B42270F1C7A09C1C8C4051FE808DDD7 /* Pods-CreoleTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CreoleTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		7C86BCDDC074C53BC3CBC34C3CCE1328 /* Pods-CreoleTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CreoleTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		912F52A51EE822FB009C30D9 /* CreoleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreoleTextField.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981510BFC7892F48321DFECB0E403D3E /* CreoleTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreoleTextField-prefix.pch"; sourceTree = "<group>"; };
+		9F4B59A5C0E45AC257EE65547642FFE3 /* Pods-CreoleTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CreoleTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A41FE25C0F8F27A8253F0DBAB1D61AE1 /* CreoleTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreoleTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8682EF8F5FB49B519FD33B1288C02D8 /* Pods-CreoleTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CreoleTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		AD149BFF6014B0A0360050B9A67C0718 /* Pods-CreoleTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreoleTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD6772F00AEB612FC4AE07626BC6310 /* Pods-CreoleTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreoleTextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		C7AA5238F26BB71AF881B9BC82A52B64 /* CreoleTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CreoleTextField.modulemap; sourceTree = "<group>"; };
+		D120BF3A7042BEB7DB7E49363444DD84 /* Pods-CreoleTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CreoleTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		E659A66869D9A1245438B49EF61DAF18 /* Pods_CreoleTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreoleTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F96889EC7D806F4201304A9E8CD3AB /* Pods-CreoleTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreoleTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F49BDA4E6EBC89E556D7CB8EC738503D /* CreoleTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreoleTextField-umbrella.h"; sourceTree = "<group>"; };
+		F6BF6DEF706D9ABD8C1AB0C63343C2AE /* Pods_CreoleTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreoleTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB40A3D500B537EA4BA7C1D69822AB3 /* Pods-CreoleTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreoleTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C1D8B4DE68D85AE95A52293815B3FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360E294E9AEF3B01E937484DA73F3B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A51751A91F935CAE3CA9AE98127A76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEE2FBF7C47F2414DAE6F4C1F4015D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1F862332744B4DD864CF8AE7171608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABA9A8F27675AF84B48C7AED4510F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D155D8D27DE7640D8DE31B4361D3338 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7AA5238F26BB71AF881B9BC82A52B64 /* CreoleTextField.modulemap */,
+				29016F8BBE13AD0FAB5172055D0997B6 /* CreoleTextField.xcconfig */,
+				3BD3A730BD4C17B85ECDA9265D2FBED2 /* CreoleTextField-dummy.m */,
+				981510BFC7892F48321DFECB0E403D3E /* CreoleTextField-prefix.pch */,
+				F49BDA4E6EBC89E556D7CB8EC738503D /* CreoleTextField-umbrella.h */,
+				061E07E273A3FE815276FA3226D50B3D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CreoleTextField";
+			sourceTree = "<group>";
+		};
+		22C867CFBAA49A979414A1C9AFB3AC7A /* Pods-CreoleTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0503FB82471EB749BE002824EA59A25A /* Info.plist */,
+				608F484EB2FF7655A39C0164F3A29C44 /* Pods-CreoleTextField_Example.modulemap */,
+				6101A66082B520936C45F367950B8C0E /* Pods-CreoleTextField_Example-acknowledgements.markdown */,
+				9F4B59A5C0E45AC257EE65547642FFE3 /* Pods-CreoleTextField_Example-acknowledgements.plist */,
+				A8682EF8F5FB49B519FD33B1288C02D8 /* Pods-CreoleTextField_Example-dummy.m */,
+				28D72F67CFE8F52C61C4EC8022C15721 /* Pods-CreoleTextField_Example-frameworks.sh */,
+				3A0A579AE0B8C191739892A3EE978471 /* Pods-CreoleTextField_Example-resources.sh */,
+				D120BF3A7042BEB7DB7E49363444DD84 /* Pods-CreoleTextField_Example-umbrella.h */,
+				AD149BFF6014B0A0360050B9A67C0718 /* Pods-CreoleTextField_Example.debug.xcconfig */,
+				E9F96889EC7D806F4201304A9E8CD3AB /* Pods-CreoleTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-CreoleTextField_Example";
+			path = "Target Support Files/Pods-CreoleTextField_Example";
+			sourceTree = "<group>";
+		};
+		5F21786B94EDB4CC661DE91C3FD96C7D /* CreoleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C6654F3532BACCFD35590F09200DAC47 /* Classes */,
+			);
+			path = CreoleTextField;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CC3270A065894823CE6AC93816ECF752 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D72840C7C0D5A9317F8EF79BE39E5B25 /* Products */,
+				E04B6B805E8788C498D77CFA3B3B5E31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		919224DBE1DE2E9559C50990F0D747BA /* Pods-CreoleTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04D7EFAA1C53AB9A225ECABE02D1B0B9 /* Info.plist */,
+				7B42270F1C7A09C1C8C4051FE808DDD7 /* Pods-CreoleTextField_Tests.modulemap */,
+				0A8349535F0AA434A44416521B126A4C /* Pods-CreoleTextField_Tests-acknowledgements.markdown */,
+				0B54B73FB212DF54294E5F3771143256 /* Pods-CreoleTextField_Tests-acknowledgements.plist */,
+				7C86BCDDC074C53BC3CBC34C3CCE1328 /* Pods-CreoleTextField_Tests-dummy.m */,
+				0B205DB280B16FA2D9B905F75B5BBBA3 /* Pods-CreoleTextField_Tests-frameworks.sh */,
+				BCD6772F00AEB612FC4AE07626BC6310 /* Pods-CreoleTextField_Tests-resources.sh */,
+				534BD4FB62AE8E52132F48DE03AA9CE5 /* Pods-CreoleTextField_Tests-umbrella.h */,
+				02CFB9A1132C0CAE5B56E6605B4257CE /* Pods-CreoleTextField_Tests.debug.xcconfig */,
+				FCB40A3D500B537EA4BA7C1D69822AB3 /* Pods-CreoleTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-CreoleTextField_Tests";
+			path = "Target Support Files/Pods-CreoleTextField_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6654F3532BACCFD35590F09200DAC47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				912F52A51EE822FB009C30D9 /* CreoleTextField.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C677ED0C8687960BDC12330BC49FBE70 /* CreoleTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5F21786B94EDB4CC661DE91C3FD96C7D /* CreoleTextField */,
+				1D155D8D27DE7640D8DE31B4361D3338 /* Support Files */,
+			);
+			name = CreoleTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC3270A065894823CE6AC93816ECF752 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C677ED0C8687960BDC12330BC49FBE70 /* CreoleTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D72840C7C0D5A9317F8EF79BE39E5B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A41FE25C0F8F27A8253F0DBAB1D61AE1 /* CreoleTextField.framework */,
+				F6BF6DEF706D9ABD8C1AB0C63343C2AE /* Pods_CreoleTextField_Example.framework */,
+				E659A66869D9A1245438B49EF61DAF18 /* Pods_CreoleTextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E04B6B805E8788C498D77CFA3B3B5E31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C867CFBAA49A979414A1C9AFB3AC7A /* Pods-CreoleTextField_Example */,
+				919224DBE1DE2E9559C50990F0D747BA /* Pods-CreoleTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		309C33A9E786CB2A82E53498B2C22340 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0A83C59E7D57D38F7ECEA20660125D /* Pods-CreoleTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AC32CB0456CEFA890210AEFBE700D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40DEBA46FEA46E8C9F67E18F314E5B /* Pods-CreoleTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49037377638127A63BFD94009FFD403 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918DB3E07A3B255E2C9924FE413833BA /* CreoleTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E817730EF590ACAB2E7C829272220B7 /* Pods-CreoleTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FF56316C326C273D2A8D838EBB823D /* Build configuration list for PBXNativeTarget "Pods-CreoleTextField_Example" */;
+			buildPhases = (
+				57C4DB6A34781CC61567A0D9F8B30B8C /* Sources */,
+				6C1D8B4DE68D85AE95A52293815B3FD0 /* Frameworks */,
+				649AC32CB0456CEFA890210AEFBE700D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD4AE94EFF748AFFDC9A44AF43AB0F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CreoleTextField_Example";
+			productName = "Pods-CreoleTextField_Example";
+			productReference = F6BF6DEF706D9ABD8C1AB0C63343C2AE /* Pods_CreoleTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CC70DA7867ABB8EA6B04C63C4BC80D8 /* Pods-CreoleTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B6AE7CDED3165EFA9DF0F6221D0FBA /* Build configuration list for PBXNativeTarget "Pods-CreoleTextField_Tests" */;
+			buildPhases = (
+				D81155807E7B21D30F5F959D73873209 /* Sources */,
+				AE1F862332744B4DD864CF8AE7171608 /* Frameworks */,
+				309C33A9E786CB2A82E53498B2C22340 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CreoleTextField_Tests";
+			productName = "Pods-CreoleTextField_Tests";
+			productReference = E659A66869D9A1245438B49EF61DAF18 /* Pods_CreoleTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87D2D5FCA57BB1F22BE266D9AC8834A9 /* CreoleTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCD6640E36705BE164EB54D3D530157 /* Build configuration list for PBXNativeTarget "CreoleTextField" */;
+			buildPhases = (
+				9441B3601C46B524082D487E90AB50BA /* Sources */,
+				9A51751A91F935CAE3CA9AE98127A76D /* Frameworks */,
+				D49037377638127A63BFD94009FFD403 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreoleTextField;
+			productName = CreoleTextField;
+			productReference = A41FE25C0F8F27A8253F0DBAB1D61AE1 /* CreoleTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					87D2D5FCA57BB1F22BE266D9AC8834A9 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D72840C7C0D5A9317F8EF79BE39E5B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D2D5FCA57BB1F22BE266D9AC8834A9 /* CreoleTextField */,
+				0E817730EF590ACAB2E7C829272220B7 /* Pods-CreoleTextField_Example */,
+				1CC70DA7867ABB8EA6B04C63C4BC80D8 /* Pods-CreoleTextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C4DB6A34781CC61567A0D9F8B30B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90304092B9A7732C1DA21193FDD81610 /* Pods-CreoleTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9441B3601C46B524082D487E90AB50BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ED9B099C508D0E572FB84FFB44AA8E /* CreoleTextField-dummy.m in Sources */,
+				912F52A61EE822FB009C30D9 /* CreoleTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81155807E7B21D30F5F959D73873209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A2DD40F65526ED846D7F5DFF86A165 /* Pods-CreoleTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DD4AE94EFF748AFFDC9A44AF43AB0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreoleTextField;
+			target = 87D2D5FCA57BB1F22BE266D9AC8834A9 /* CreoleTextField */;
+			targetProxy = CD61DE75615E78D1DBC84CB26D0CA677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F16199A954006517B1BAFCE3DAB4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F96889EC7D806F4201304A9E8CD3AB /* Pods-CreoleTextField_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreoleTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreoleTextField_Example/Pods-CreoleTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreoleTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10BB4AE715655FC57CEE3BA80D23C9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29016F8BBE13AD0FAB5172055D0997B6 /* CreoleTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreoleTextField/CreoleTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreoleTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreoleTextField/CreoleTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CreoleTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		307265CE9387F9AB35EFBEF0413463AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CFB9A1132C0CAE5B56E6605B4257CE /* Pods-CreoleTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreoleTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreoleTextField_Tests/Pods-CreoleTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreoleTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3FEAA45474F343FF24593CCFA928EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29016F8BBE13AD0FAB5172055D0997B6 /* CreoleTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CreoleTextField/CreoleTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreoleTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CreoleTextField/CreoleTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CreoleTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5E8E97C182D9915E6A7E96D3073FF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB40A3D500B537EA4BA7C1D69822AB3 /* Pods-CreoleTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreoleTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreoleTextField_Tests/Pods-CreoleTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreoleTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D83D1F1B0305D660CFDB203D989A2DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD149BFF6014B0A0360050B9A67C0718 /* Pods-CreoleTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreoleTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreoleTextField_Example/Pods-CreoleTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreoleTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FF56316C326C273D2A8D838EBB823D /* Build configuration list for PBXNativeTarget "Pods-CreoleTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83D1F1B0305D660CFDB203D989A2DF6 /* Debug */,
+				02F16199A954006517B1BAFCE3DAB4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B6AE7CDED3165EFA9DF0F6221D0FBA /* Build configuration list for PBXNativeTarget "Pods-CreoleTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307265CE9387F9AB35EFBEF0413463AE /* Debug */,
+				B5E8E97C182D9915E6A7E96D3073FF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD6640E36705BE164EB54D3D530157 /* Build configuration list for PBXNativeTarget "CreoleTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3FEAA45474F343FF24593CCFA928EB /* Debug */,
+				10BB4AE715655FC57CEE3BA80D23C9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
