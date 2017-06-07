@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CreoleTextField_Example' do
+  pod 'CreoleTextField', :path => '../'
+
+  target 'CreoleTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
