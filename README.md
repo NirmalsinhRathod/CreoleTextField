@@ -22,7 +22,7 @@ pod "CreoleTextField"
 
 ## Author
 
-Nirmalsinh07, nirmasinh@creolestudios.com
+Nirmalsinh Rathod, nirmasinh@creolestudios.com
 
 ## License
 
