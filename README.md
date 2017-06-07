@@ -14,6 +14,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Swift 3.0 
 iOS 10 and above
 
+## Description
+
+CreoleTextfield is a textfield object which manage to do automatically validation based of type which you have select.
+
+    Supported Textfield Type:
+    1.None
+    2.Email
+    3.Password
+    4.PhoneNumber
+    5.Postal code
+    6.Date of birth
+
 ## Installation
 
 CreoleTextField is available through [CocoaPods](http://cocoapods.org). To install
@@ -25,7 +37,9 @@ pod "CreoleTextField"
 
 ## Author
 
-Nirmalsinh Rathod, nirmasinh@creolestudios.com
+Nirmalsinh Rathod, 
+nirmasinh@creolestudios.com
+www.creolestudios.com
 
 ## License
 
