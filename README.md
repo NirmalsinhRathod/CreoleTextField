@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 3.0 
+iOS 10 and above
+
 ## Installation
 
 CreoleTextField is available through [CocoaPods](http://cocoapods.org). To install
