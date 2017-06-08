@@ -31,7 +31,7 @@ public class CreoleTextField: UITextField {
   var leftPaddingValue:CGFloat = 0.0//leftpadding space
   var rightPaddingValue:CGFloat = 0.0//right padding space
   var maxLength:Int = 255//set maximum length of textfield
-  var currentTextFieldType:CreoleTextFieldType = .none//none = 0,email = 1.mobileNumber = 2,dateOfBirth = 3,password = 4
+  var currentTextFieldType:CreoleTextFieldType = .none//none = 0,email = 1.mobile,postalcode = 2,dateOfBirth = 3,password = 4 ,  phone = 5
   weak var delegateObj:CreoleTextFieldDelegate?
   var isValidTextField:Bool = true
   var isFloatingTextField:Bool = false
