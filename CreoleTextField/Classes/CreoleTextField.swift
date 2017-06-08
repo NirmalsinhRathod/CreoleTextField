@@ -40,7 +40,7 @@ public class CreoleTextField: UITextField {
   var title = UILabel()//FloatLabelTextField
   
   //MARK: - Initialization -
-  override init(frame: CGRect) {
+  override public init(frame: CGRect) {
     super.init(frame: frame)
     self.setTextFieldView()
   }
