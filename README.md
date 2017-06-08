@@ -32,7 +32,7 @@ If you don't want use pod, then you can drag CreoleTextField file into your proj
 Here is Swift Code:
 ```ruby
    let yourTextField = CreoleTextField.init(frame: CGRect.init(x: X, y: Y, width: WIDTH, height: HEIGHT))
-   yourTextField.TextfieldType = CreoleTextFieldType.email.rawValue// set textfield type like email, none,             password,dateofbirth,phone,postalcode
+   yourTextField.TextfieldType = CreoleTextFieldType.email.rawValue// set textfield type like email, none,password,dateofbirth,phone,postalcode
    yourTextField.maxLength = YOUR_MAX_LENGHT 
    yourTextField.setTextFieldView()
    yourTextField.delegateObj = self
