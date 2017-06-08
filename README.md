@@ -26,6 +26,18 @@ CreoleTextfield is a textfield object which manage to do automatically validatio
     5.Postal code
     6.Date of birth
 
+## Manual Installation
+
+If you don't want use pod, then you can drag CreoleTextField file into your project and directly use it. 
+Here is Swift Code:
+```ruby
+   let yourTextField = CSTextField.init(frame: CGRect.init(x: 50, y: 50, width: 200, height: 30))//create textfield object and set frame
+   yourTextField.TextfieldType = CSTextFieldType.email.rawValue// set textfield type like email, none,             password,dateofbirth,phone,postalcode
+   yourTextField.maxLength = 200//set textfield length
+   yourTextField.setTextFieldView()//set all property that given up
+   yourTextField.delegateObj = self//set delegate if user want to implement some functionality when user typing or after typing
+   ```
+
 ## Installation
 
 CreoleTextField is available through [CocoaPods](http://cocoapods.org). To install
